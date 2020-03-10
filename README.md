@@ -16,7 +16,7 @@ repositories {
 
 dependencies {
     ...
-    compile 'com.github.kylecorry31:Robot-Vision-API:v1.1.2'
+    compile 'com.github.TheOverLordDude:Robot-Vision-API:v1.1.2'
 }
 ```
 
