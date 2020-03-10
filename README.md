@@ -102,7 +102,7 @@ private boolean isRightTarget(Target target){
 You can find documentation on [this website](https://kylecorry31.github.io/Robot-Vision-API).
 
 ## Contributing
-Please fork this repo and submit a pull request to contribute. I will review all changes and respond if they are accepted or rejected (as well as reasons, so it will be accepted).
+Updated by TheOverLordDude to be used with the 2020 ControlSystems and C++. Java not updated, fyi.
 
 ## License
 This project is published under the [GPL-3.0 license](LICENSE).
