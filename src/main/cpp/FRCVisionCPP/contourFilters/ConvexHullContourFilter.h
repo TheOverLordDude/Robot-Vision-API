@@ -3,6 +3,7 @@
 
 #include <opencv2/core/mat.hpp>
 #include <opencv2/imgproc/imgproc.hpp>
+#include "../Range.h"
 #include <vector>
 
 class ConvexHullContourFilter : public ContourFilter

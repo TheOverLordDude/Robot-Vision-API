@@ -2,6 +2,7 @@
 
 #include <opencv2/core/mat.hpp>
 #include <opencv2/imgproc/imgproc.hpp>
+#include "../Range.h"
 #include <vector>
 
 ConvexHullContourFilter::ConvexHullContourFilter(double minArea, double minPerimeter, Range width, Range height, Range solidity, Range vertexCount, Range widthToHeightRatio)
@@ -46,7 +47,7 @@ std::vector<cv::Mat1i> ConvexHullContourFilter::filterContours(std::vector<cv::M
         {
             continue;
         }
-        output.add(contour);
+        output.push_back(contour);
     }
     return output;
 }
