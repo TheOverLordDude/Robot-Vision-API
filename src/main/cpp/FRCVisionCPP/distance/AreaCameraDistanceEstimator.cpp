@@ -1,4 +1,5 @@
 #include "AreaCameraDistanceEstimator.h"
+#include "../targeting/Target.h"
 
 AreaCameraDistanceEstimator::AreaCameraDistanceEstimator(AreaDistancePair close, AreaDistancePair far)
 {
